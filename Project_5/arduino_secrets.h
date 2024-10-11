@@ -1,0 +1,3 @@
+#define SECRET_DEVICE_KEY "rn6mZEKRfNgPPvhDTb19?WDgT"
+#define SECRET_OPTIONAL_PASS "asdfghjkl"
+#define SECRET_SSID "ROBOLIX"
