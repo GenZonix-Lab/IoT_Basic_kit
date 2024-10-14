@@ -1,0 +1,7 @@
+#define SSID "ROBOLIX" 
+#define PASS "asdfghjkl"
+#define APP_KEY "cff32d90-24ba-4f86-856d-6f99b77d7922"
+#define APP_SECRET "2a4611c9-4628-422a-b77a-fd15e21495ea-6a6cbd96-669d-4d4b-be44-41ac24f9ec2f"
+#define LIGHT_ID "670d09d7deddece34bad641e"
+#define Switch_ID_1 "670d2e4f46a89b75c2893a90"
+#define Switch_ID_2 "670d2ee754041e4ff64e925d"
