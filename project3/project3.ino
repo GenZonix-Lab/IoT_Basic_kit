@@ -12,11 +12,11 @@
 const int Ir_pin = 15;    //define the IR_sensor Pin connect to the D5 pin
 
 String data = "close";
-#define WiFi_SSID "ROBOLIX"     //replace your wifi name
-#define WiFi_pwd "asdfghjkl"    //replace your wifi password
-#define sender_mail "solutiongenzonix@gmail.com"    //replace your email address
-#define sender_app_password "ekvm szfe ckfr lqew" //follow the Gmail_Auth_steps/refer our project1 document.
-#define receiver_mail "ahamedazeem67@gmail.com"    //replace the receiver mail address to get notification.
+#define WiFi_SSID "wifi_name"     //replace your wifi name
+#define WiFi_pwd "password"    //replace your wifi password
+#define sender_mail "sendermail@gmail.com"    //replace your email address
+#define sender_app_password "wdft rgyt dert welw" //follow the Gmail_Auth_steps/refer our project1 document.
+#define receiver_mail "receivermail@gmail.com"    //replace the receiver mail address to get notification.
 
 SMTPSession smtp;
 
