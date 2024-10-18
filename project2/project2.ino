@@ -15,12 +15,11 @@ const int echoPin = 15 ;
 long duration;
 int distance;
 String data = "free";
-#define WiFi_SSID "ROBOLIX"     //replace your wifi name
-#define WiFi_pwd "asdfghjkl"    //replace your wifi password
-#define sender_mail "solutiongenzonix@gmail.com"    //replace your email address
+#define WiFi_SSID WiFi_Name     //replace your wifi name
+#define WiFi_pwd password    //replace your wifi password
+#define sender_mail sender_mail    //replace your email address
 #define sender_app_password "ekvm szfe ckfr lqew" //follow the Gmail_Auth_steps/refer our project1 document.
-#define receiver_mail "ahamedazeem67@gmail.com"    //replace the receiver mail address to get notification.
-
+#define receiver_mail receiver_mail    //replace the receiver mail address to get notification.
 SMTPSession smtp;
 
 void setup() {
