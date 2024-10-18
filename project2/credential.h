@@ -1,0 +1,5 @@
+#define WiFi_Name "ROBOLIX" 
+#define password "asdfghjkl"
+#define sender_mail "solutiongenzonix@gmail.com" 
+#define passcode "ekvm szfe ckfr lqew"
+#define receiver_mail "ahamedazeem67@gmail.com"
