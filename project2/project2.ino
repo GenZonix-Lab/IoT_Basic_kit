@@ -8,6 +8,7 @@
 
 #include <WiFi.h>
 #include <ESP_Mail_Client.h>
+#include "credential.h"
 //Ir_sensor_pin
 //#define Ir_pin D5    //define the IR_sensor Pin connect to the D5 pin
 const int trigPin = 2;
@@ -18,7 +19,7 @@ String data = "free";
 #define WiFi_SSID WiFi_Name     //replace your wifi name
 #define WiFi_pwd password    //replace your wifi password
 #define sender_mail sender_mail    //replace your email address
-#define sender_app_password "ekvm szfe ckfr lqew" //follow the Gmail_Auth_steps/refer our project1 document.
+#define sender_app_password passcode //follow the Gmail_Auth_steps/refer our project1 document.
 #define receiver_mail receiver_mail    //replace the receiver mail address to get notification.
 SMTPSession smtp;
 
